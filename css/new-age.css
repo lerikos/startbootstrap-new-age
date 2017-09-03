@@ -307,213 +307,119 @@ footer {
   font-size: 11px;
   padding: 15px 45px; }
 
-/*--------------------------------------------------
-    [Gutter]
-----------------------------------------------------*/
-
-.content-sm {
-  padding-top: 40px;
-  padding-bottom: 40px;
+/* style pricing */
+.mega-pricing-item {
+ background: #fff none repeat scroll 0 0;
+ box-shadow: 0 0 10px #f1f1f1;
+ padding: 30px;
+ text-align: center;
 }
-
-.content-md {
-  padding-top: 80px;
-  padding-bottom: 80px;
+.bordered-btn {
+ border: 1px solid;
+ color: #fff;
+ display: inline-block;
+ font-weight: 700;
+ padding: 10px 30px;
+ text-transform: uppercase;
+} 
+.bordered-btn {
+ border-radius: 3px;
+} 
+.bordered-btn:hover {
+ color: #fff;
+ background-color: #1360f4;
+ border-color: #1360f4;
+ text-decoration:none} 
+.boxed-btn {
+ display: inline-block;
+ font-weight: 600;
+ text-transform: uppercase
 }
-
-.margin-b-40 {
-    margin-bottom: 40px !important;
+.boxed-btn {
+ border-radius: 2px;
+ font-size: 14px;
+ margin-top: 15px;
+ padding: 10px 30px;
+ color: #fff
 }
-
-@media (max-width: 992px) {
-  .md-margin-b-30 {
-    margin-bottom: 30px !important;
-  }
+.boxed-btn:hover{
+ background-color: #333;
+ color: #fff;
+ text-decoration:none
+} 
+.mega-pricing-item ul {
+ line-height: 35px;
+ list-style: outside none none;
+ margin: 0;
+ min-height: 198px;
+ padding: 0;
 }
-
-
-/*--------------------------------------------------
-    [Radius]
-----------------------------------------------------*/
-
-.radius-3 {
-  border-radius: 3px !important;
+.mega-pricing-item a.boxed-btn {
+ margin: 0;
 }
-
-.radius-10 {
-  border-radius: 10px !important;
+.mega-pricing-item h1 {
+ font-size: 55px;
+ font-weight: 300;
 }
-
-
-/*--------------------------------------------------
-    [Colors]
-----------------------------------------------------*/
-
-.bg-color-sky-light {
-  background: #f7f8fa !important;
+.mega-pricing-item h1 span {
+ font-size: 25px;
+ padding-right: 3px;
 }
-
-
-/*--------------------------------------------------
-    [Button]
-----------------------------------------------------*/
-
-.btn-dark-brd {
-  position: relative;
-  display: inline-block;
-  line-height: 1.4;
-  color: #34343c;
-  text-align: center;
-  background: transparent;
-  background-image: none;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #34343c;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+.mega-pricing-item h3 {
+ font-size: 25px;
+ font-weight: 300;
 }
-
-.btn-dark-brd:focus, .btn-dark-brd:active:focus, .btn-dark-brd.active:focus, .btn-dark-brd.focus, .btn-dark-brd:active.focus, .btn-dark-brd.active.focus {
-  outline: none;
+.gradient-style-1 {
+ background: #e62f17;
+ background: -webkit-linear-gradient(45deg, #e62f17 0%, #f2ba30 100%);
+ background: linear-gradient(45deg, #e62f17 0%, #f2ba30 100%);
+ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e62f17', endColorstr='#f2ba30', GradientType=1);
 }
-
-.btn-dark-brd:hover {
-  transition-duration: 200ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+.gradient-style-2 {
+ background: #0a3466;
+ background: -webkit-linear-gradient(45deg, #0a3466 0%, #17b6e3 100%);
+ background: linear-gradient(45deg, #0a3466 0%, #17b6e3 100%);
+ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0a3466', endColorstr='#17b6e3', GradientType=1);
 }
-
-.btn-dark-brd:hover, .btn-dark-brd:focus, .btn-dark-brd.focus {
-  color: #fff;
-  background: #34343c;
-  border-color: #34343c;
-  text-decoration: none;
+.gradient-style-3 {
+ background: #18b9e5;
+ background: -webkit-linear-gradient(45deg, #18b9e5 0%, #81d9b8 100%);
+ background: linear-gradient(45deg, #18b9e5 0%, #81d9b8 100%);
+ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#18b9e5', endColorstr='#81d9b8', GradientType=1);
 }
-
-.btn-dark-brd:after, .btn-dark-brd:before {
-  background: transparent;
+.gradient-style-1,
+.gradient-style-2,
+.gradient-style-3 {
+ color: #fff;
+ box-shadow: 0 0 10px #ccc
 }
-
-.btn-dark-brd:active, .btn-dark-brd.active {
-  background-image: none;
-  outline: 0;
+.pricing-icon {
+ font-size: 80px;
+ line-height: 80px;
+ margin-bottom: 20px;
 }
-
-.btn-dark-brd.disabled, .btn-dark-brd[disabled],
-fieldset[disabled] .btn-dark-brd {
-  cursor: not-allowed;
-  box-shadow: none;
-  opacity: .65;
-  pointer-events: none;
+.gradient-style-1 a,
+.gradient-style-2 a,
+.gradient-style-3 a {
+ background-color: transparent;
+ border: 1px solid #fff;
+ color: #fff;
 }
-
-.btn-dark-brd .btn-base-element-xs {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: transparent;
-  border-left: 1px solid #2b2b31;
-  padding: 6px 9px;
+.pricing-duration {
+ margin-top: -15px;
+ margin-bottom: 15px;
+ font-size: 12px;
 }
-
-.btn-dark-brd .btn-base-element-sm {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: transparent;
-  border-left: 1px solid #2b2b31;
-  padding: 9px 11px;
+.mega-pricing-item.flat-style-pricing {
+ border: 1px solid #f7f9fc;
+ box-shadow: 0 0 0;
 }
-
-.btn-dark-brd .btn-base-element-md {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: transparent;
-  border-left: 1px solid #2b2b31;
-  padding: 12px 13px;
+.mega-pricing-item.flat-style-pricing.active {
+ border-top: 3px solid;
+ box-shadow: 0 0 10px #f1f1f1;
 }
-
-.btn-dark-brd .btn-base-element-lg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: transparent;
-  border-left: 1px solid #2b2b31;
-  padding: 15px 15px;
-}
-
-.btn-base-sm {
-  font-size: 14px;
-  font-weight: 300;
-  padding: 9px 22px;
-}
-
-
-/*--------------------------------------------------
-    [Pricing List v4]
-----------------------------------------------------*/
-.pricing-list-v4 {
-  text-align: center;
-  background: #fff;
-  box-shadow: 15px 15px 15px 0 #eff1f8;
-}
-
-.pricing-list-v4 .pricing-list-v4-header {
-  border-bottom: 1px solid #e4e8f3;
-  padding: 40px 20px 40px;
-  margin: 10px 30px;
-}
-
-.pricing-list-v4 .pricing-list-v4-header .pricing-list-v4-title {
-  font-size: 36px;
-  margin-bottom: 5px;
-}
-
-.pricing-list-v4 .pricing-list-v4-header .pricing-list-v4-subtitle {
-  display: block;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing-list-v4 .pricing-list-v4-content {
-  padding: 40px 20px;
-}
-
-.pricing-list-v4 .pricing-list-v4-content .pricing-list-v4-price-sign {
-  position: relative;
-  top: -30px;
-  font-size: 20px;
-}
-
-.pricing-list-v4 .pricing-list-v4-content .pricing-list-v4-price {
-  font-size: 70px;
-  font-weight: 400;
-  line-height: .5;
-  letter-spacing: -3px;
-}
-
-.pricing-list-v4 .pricing-list-v4-content .pricing-list-v4-subprice {
-  font-size: 30px;
-  font-weight: 400;
-}
-
-.pricing-list-v4 .pricing-list-v4-content .pricing-list-v4-price-info {
-  position: relative;
-  display: block;
-  letter-spacing: 1px;
-}
-
-.pricing-list-v4 .pricing-list-v4-content .pricing-list-v4-price-info:before {
-  font-size: 22px;
-  font-weight: 300;
-  content: "/";
-  margin-right: 3px;
+.mega-pricing-item h3 span {
+ display: block;
+ font-size: 14px;
+ line-height: 20px;
 }
